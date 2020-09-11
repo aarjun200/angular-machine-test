@@ -1,0 +1,27 @@
+<div class="login-page-wrapper">
+  <div class="log-wrapper">
+    <div class="log-box">
+      <div class="form-blk w-100 h-100 p-4">
+        <div class="logo d-flex justify-centent-center align-items-center">
+          <div class="w-100 text-center">
+            <img
+              class="logo img-fluid m-1"
+              src="assets/images/logo_home.png"
+              alt="KN-logo"
+            />
+            <h4>Login</h4>
+          </div>
+        </div> 
+        <div class="log-form">
+          <app-input-boxes
+            (loginValues)="passValueToButtonCom($event)"
+          ></app-input-boxes>
+          <app-signin-button
+            [isButtonEnable]="isButtonEnable"  
+            (loginValidated)="login()"
+          ></app-signin-button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+/* Site Colors */
+$black: #000000;
+$white: #ffffff;
+$trans: transparent;
+$inp-border: #e4e4e4;
+$red: #ec0a0a;
+$font: #343434;
+$knnavi: #062b52;
+$menu-font: #a2a2a2;
+$scroll-bord: #ededed;
+$knblue: #00B8F1;
+$menu: #8395A8;
+$topblue : #0202ff;
+$fontsize: (
+  fsize9: 9px,
+  fsize10: 10px,
+  fsize11: 11px,
+  fsize12: 12px,
+  fsize13: 13px,
+  fsize14: 14px,
+  fsize15: 15px,
+  fsize16: 16px,
+  fsize17: 17px,
+  fsize18: 18px,
+  fsize19: 19px,
+  fsize20: 20px,
+  fsize21: 21px,
+  fsize22: 22px,
+  fsize23: 23px,
+  fsize24: 24px,
+  fsize25: 25px,
+  fsize26: 26px,
+  fsize27: 27px,
+  fsize28: 28px,
+  fsize29: 29px,
+  fsize30: 30px,
+  fsize31: 31px,
+  fsize32: 32px,
+  fsize33: 33px,
+  fsize34: 34px,
+  fsize35: 35px,
+);
+@function weight($font-weight) {
+  @return map-get($weight, $font-weight);
+}
+@function fontsize($font-size) {
+  @return map-get($fontsize, $font-size);
+}
+$screen-xl-min: "(min-width: 320px) and (max-width: 768px)";
+$screen-sm-min: "(min-width: 769px) and (max-width: 991px)";
+$screen-md-min: "(min-width: 992px) and (max-width: 1199px)";
+$screen-lg-min: "(min-width: 1200px)";

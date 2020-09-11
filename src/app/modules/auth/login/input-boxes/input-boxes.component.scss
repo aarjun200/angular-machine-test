@@ -1,0 +1,14 @@
+@import "../../../../variable.scss";
+
+.input-box {
+  padding: 11px;
+  width: 100% !important;
+  border-radius: 7px;
+  height: 43px !important;
+  border: 1px solid $inp-border !important;
+}
+
+::placeholder {
+  color: $menu-font;
+  font-size: fontsize(fsize12);
+}

@@ -1,0 +1,46 @@
+@import "../../../variable.scss";
+
+.login-page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+    background-image: url("/assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  .log-wrapper {
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .log-box {
+      height: 405px;
+      background: $white;
+      border-radius: 6px;
+      .logo {
+        h4 {
+          font-family: 'Open Sans',sans-serif !important;
+          font-size: fontsize(fsize26);
+          color: #515151;
+          font-weight: 500;
+          padding: 12px;
+        }
+        span {
+          font-family: "OpenSans-Regular";
+          font-size: fontsize(fsize20);
+          color: $knnavi;
+        }
+      }
+      img.logo {
+        height: 50px; 
+      }
+    }
+  }
+}

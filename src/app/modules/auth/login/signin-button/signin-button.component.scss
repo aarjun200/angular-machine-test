@@ -1,0 +1,31 @@
+@import "../../../../variable.scss";
+.button-style {  //sign in button style 
+  display: block;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 13px 12px;
+    border: 0;
+    background-color: #da171f;
+    border-radius: 25px;
+    line-height: 1;
+}
+
+span.error-val {
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  width: 100%;
+  color: $red;
+	font-size: fontsize(fsize10);
+}
+.not-valid {
+  button {
+    cursor: not-allowed;   //disable button style
+  }
+  .login-button:hover span.error-val {  
+    position: absolute;
+    top: -25px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,8 @@
+<div class="col-md-12 mt-5 mb-3" [ngClass]="{ 'not-valid': !isButtonEnable }">
+  <div class="row login-button">
+    <span class="error-val">Please check email/password.</span> 
+    <button [disabled]="!isButtonEnable" (click)="login()" class="button-style">
+      LOGIN
+    </button>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+@import "../../../variable.scss";
+.home-top
+{
+    padding: 85px 0px;
+  .header-sty
+  {
+    margin-top: 59px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: $white;
+  }
+  .data-sty
+  {
+    font-size: 32px;
+    font-weight: 500;
+    color: $white;  
+  }
+  .mouse
+  {
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    right: 0;
+    background: red;
+  }
+}
+p{
+  line-height: 17px;
+    padding-top: 13px;
+    font-size: 9px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.button_view{
+  width: 110px;
+    height: 27px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    border-radius: 19px;
+    font-size: 8px;
+    border: 1px solid orange;
+}
+.img-responsive{
+  width: 90%
+}
+.min-height{
+  min-height: 100vh;
+}
+.background {
+  position: relative;
+  background-image: linear-gradient(to right, #0010ff, #002ffa, #0040f4, #004cec, #0057e3, #2263e2, #376fe0, #497ade, #608be5, #769deb, #8caef1, #a2c0f7);
+}
+.tile{
+  position: absolute;
+  bottom: 0px;
+    width: 100%;
+}
+::ng-deep .container-fluid{
+  padding: 0px !important
+}
+::ng-deep .row{
+  margin: 0px !important
+}
+.img_responsive {
+  width: 100%
+}
+.mouse_layout{
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  box-shadow: 0px 0px 11px 1px rgba(16,85,180,1);
+  top: 23%;
+  border-radius: 30px;
+  width: 45px;
+  background-color: #1055B4;
+  height: 45px;
+}
+.img_mouse{
+  width: 17px;
+  margin-left: 14px;
+  margin-top: 10px;
+}
+.align-center{
+  margin: auto;
+}
+
